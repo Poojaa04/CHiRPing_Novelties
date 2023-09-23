@@ -1,47 +1,93 @@
-*{
-    margin:0%;
-    padding:0%;
-} 
- 
-#h1{
-    font-size: 60px;
-    color: rgb(0, 0, 0);
-    background-color:rgb(204, 244, 123);
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family:Skranji;
+}
+
+header h1 {
     text-align: center;
-    padding: 0%;
-}     
+    font-size: 60px;
+    color: white;
+}
 
-body{
-    background-color: rgb(0, 0, 0, 0);
-    min-height: 100%;
-    position: relative;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    
+header {
+    padding: 40px;
+    background-color: rgb(17, 124, 143);
 }
-.navigation{
-        color:rgb(249, 252, 252);
-        background-color:rgb(204, 244, 123);
-        list-style-type: none;
-        display: flex;
-        gap: 100px;
-        font-size:xx-large;
-        text-decoration: none;
-        padding-left:2vw;
-}
-header{
-    background-color:rgb(204, 244, 123);
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+    text-align: center;
 
 }
-.navigation a:hover {
-    background-color:lightblue;
-    text-decoration: underline;
-  }
-  a:link {
+
+nav a {
     text-decoration: none;
-    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: x-large;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+}
+
+h2 {
+    padding: 0px;
+    text-align: center;
+}
+
+section:nth-child(even) {
+    background-color: rgb(241, 241, 241);
+}
+
+section {
+    height: 35vw;
+}
+
+video {
+    padding: 10px;
+}
+
+iframe {
+    height: 75vh;
+}
+
+img {
+    padding: 10px;
+}
+
+section h5 {
+    margin: 40px;
+}
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+section{
+    text-align:left;
+    font-size: smaller;
+
+
+}
+a:link {
+    text-decoration: none;
     }
     
     a:visited {
@@ -56,26 +102,7 @@ header{
     text-decoration: underline;
     }
     section{
-
-        position:relative;
-    }
-    section>h1{
-      position: absolute;
-    }
-    #main{
-        padding-top: 320px;
-        font-size: 60px;
-        padding-left: 138px;
-    }
-    #hh{
-        font-size: 50px;
-        padding-top: 260px;
-        padding-left: 80px;
-
-    }
-    footer {
-        text-align: center;
-        background-color: #333;
-        color: #fff;
-        padding: 10px 0;
+        display: flex;
+        width: 100vw;
+        gap: 5vw;
     }
