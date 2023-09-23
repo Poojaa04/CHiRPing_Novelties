@@ -1,6 +1,7 @@
 
 *{
-   
+   margin: 0;
+   padding: 0;
 }
 h1{
     font-size:xx-large;
@@ -60,7 +61,41 @@ a:link {
         color: white;
     }
     header{
+        position: relative;
         background-color: black;
         color: aliceblue;
         padding: 20px;
     }
+    #sec{
+        position: relative;
+    }
+#sec>a{
+    display: flex;
+    align-items: center;
+    z-index: 999;
+    padding-left: 60%;
+}   
+#sec>a>h3{
+    font-size: 1.5vw;
+    padding-left: 2vw;
+} 
+#sec>img{
+    width: 20vw;
+    height: 20vw;
+    padding-top: 4vw;
+    padding-left: 10%;
+    position: absolute;
+}
+#sec>h2{
+    font-size: 3vw;
+    position: absolute;
+    padding-top: 25vw;
+    padding-left: 7%;
+}
+footer{
+    position: relative;
+}
+footer>a{
+    text-align: center;
+    z-index: 999;
+}
