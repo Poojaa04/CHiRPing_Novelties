@@ -1,0 +1,67 @@
+*{
+   
+    list-style-type:circle;
+    font-size: xx-large ;
+}
+a:link {
+text-decoration: none;
+}
+
+a:visited {
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+a:active {
+text-decoration: underline;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color;
+  }
+  
+  
+  li a {
+    display: block;
+    color: rgb(39, 37, 37);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color:rosybrown;
+  }
+  #h2{
+    font-size:xx-large;
+    color:aqua;
+    background-color:#111;
+    text-align: center;
+    padding: 50px;
+}
+nav {
+    background-color: #333;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: rgb(2, 2, 2);
+}
+body{
+    background-color:lightgray;
+}
+header{
+    background-color:#333;
+}
