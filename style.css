@@ -11,7 +11,8 @@ body{
 
 .logo_container img{
     padding-top: 0;
-    width: 300px;
+    width: 20vw;
+    height: 20vw;
 }
 
 .logo_container{
@@ -19,11 +20,11 @@ body{
 
 }
 .name{
-    font-size: 100px;
+    font-size: 7vw;
     display: flex;
     justify-content: center;
-    padding-left: 50px;
-    padding-top: 70px;
+    padding-left: 0vw;
+    padding-top: 1vw;
     font-family: 'Croissant One', cursive;
 
 }
@@ -54,8 +55,11 @@ nav{
 
 .pimg1{
     background-image: url(bg01.jpg);
-    min-height: 100%;
+    min-height: 80vw;
+    padding-top: 10vw;
     position: relative;
+    align-items: center;
+    justify-content: center;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -64,8 +68,10 @@ nav{
 
     .pimg2{
         background-image: url(bg02.jpg);
-        min-height: 100%;
+        min-height: 80vw;
         position: relative;
+        align-items: center;
+        justify-content: center;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -74,8 +80,10 @@ nav{
 
 .pimg3{
         background-image: url(bg03.jpg);
-        min-height: 100%;
+        min-height: 80vw;
         position: relative;
+        align-items: center;
+        justify-content: center;
         background-position: center;
         background-size: cover ;
         background-repeat: no-repeat;
@@ -84,8 +92,10 @@ nav{
     }
     .pimg4{
         background-image: url(bg04.jpg);
-        min-height: 100%;
+        min-height: 80vw;
         position: relative;
+        align-items: center;
+        justify-content: center;
         background-position: center;
         background-size: cover ;
         background-repeat: no-repeat;
@@ -95,29 +105,26 @@ nav{
 
 
     .ptext{
+        padding-top: 20vw;
         position: absolute;
-        padding-top: 200px;
         text-align: center;
         color: black;
-        font-size: 50px;
         }
 
     .textBg{
          color: black;
-        font-size: 25px;
+        text-align: center;
+        font-size: 2vw;
      }
 
      .section{
-        padding: 50px 80px;
-        text-align: center;
+        padding: 5vw 8vw;
      }
 
-     .section_light{
-       
-     }
      
      .section_light h2{
-        font-size: 50px;
+        font-size: 2vw;
+        text-align: center;
      }
 
      footer {
@@ -127,10 +134,6 @@ nav{
         padding: 10px 0;
     }
     @media (max-width: 768px) {
-        .name {
-            font-size: 60px;
-            padding-top: 20px;
-        }
     
         .elements ul {
             padding-left: 10%;
@@ -143,18 +146,12 @@ nav{
     }
     
     @media (max-width: 480px) {
-        .name {
-            font-size: 40px;
-        }
     
         .elements ul {
             padding-left: 5%;
             padding-right: 5%;
         }
     
-        .section {
-            padding: 20px;
-        }
     }
 
 
