@@ -7,7 +7,6 @@ html,body{
     padding: 0;
     background-color: rgba(0, 0, 0, 0);
     color: black;
-    font-family: Skranji;
 }
 #digital-detox{
     width: 100vw;
@@ -20,12 +19,15 @@ html,body{
     font-size: 3.5vw;
 }
 #digital-detox>a{
-    color: rgb(46, 162, 228);
+    color: rgb(0, 0, 0);
     font-size: 1.8vw;    
     padding-left: 80%;
 }
 #digital-detox>a:hover{
     font-size: 2vw;
+}
+a:link{
+    text-decoration: none;
 }
 #a{
     padding-top: 8vw;
@@ -43,6 +45,10 @@ html,body{
 }
 h1{
     text-align: center;
+}
+#tq{
+    text-align: center;
+    font-size: 5vw;
 }
 footer {
     text-align: center;
