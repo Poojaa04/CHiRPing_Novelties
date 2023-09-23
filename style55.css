@@ -17,7 +17,7 @@
 }
 
 section {
-    background-color: azure;
+   background-color:#F8F6F4;
     padding: 5% 10%; 
     text-align: center;
 }
@@ -112,4 +112,7 @@ li {
     li {
         font-size: 14px; 
     }
+}
+header{
+    background-color: #C4DFDF;
 }
