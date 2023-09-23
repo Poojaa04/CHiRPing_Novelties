@@ -11,6 +11,7 @@
 body{
     background-color:aqua;
  background-image:url(support.jpg);
+ background-repeat:no-repeat;
     
 }
 .navigation{
