@@ -4,12 +4,12 @@
    padding: 0;
 }
 h1{
-    font-size:xx-large;
+    font-size: 3.5vw;
     text-align: center;
 }
 
 nav {
-    background-color: #333;
+    background-color: black;
     overflow: hidden;
     text-align: center;
 
@@ -52,14 +52,6 @@ a:link {
         background-color: #333;
         overflow: hidden;
     }
-    
-    footer a {
-        text-decoration: none;
-        padding: 20px;
-        text-align: center;
-        float: left;
-        color: white;
-    }
     header{
         position: relative;
         background-color: black;
@@ -95,7 +87,14 @@ a:link {
 footer{
     position: relative;
 }
-footer>a{
+footer>a>h2{
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    color: white;
     z-index: 999;
+}
+footer>a{
+    color: white;
 }
