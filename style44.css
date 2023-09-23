@@ -16,6 +16,7 @@ nav {
 }
 
 nav a {
+    font-size: 1.5vw;
     text-decoration: none;
     padding: 15px;
     text-align: center;
@@ -72,17 +73,21 @@ a:link {
     padding-left: 2vw;
 } 
 #sec>img{
-    width: 20vw;
-    height: 20vw;
+    width: 30vw;
+    height: 30vw;
     padding-top: 4vw;
     padding-left: 10%;
     position: absolute;
 }
+#sec>a>img{
+    width: 10vw;
+    height: 10vw;
+}
 #sec>h2{
-    font-size: 3vw;
+    font-size: 5vw;
     position: absolute;
-    padding-top: 25vw;
-    padding-left: 7%;
+    padding-top: 40vw;
+    padding-left: 5%;
 }
 footer{
     position: relative;
@@ -97,4 +102,38 @@ footer>a>h2{
 }
 footer>a{
     color: white;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 5vw;
+    }
+
+    nav a {
+        padding: 10px;
+    }
+    #sec>a>h3{
+        font-size: 2vw;
+    }
+    #sec>img{
+        padding-top: 10vw;
+        width: 30vw;
+        height: 30vw;
+    }
+    #sec>h2{
+        padding-top: 45vw;
+        font-size: 5vw;
+    }
+}
+@media (max-width: 480px) {
+    h1 {
+        font-size: 5vw;
+    }
+
+    nav a {
+        padding: 10px;
+    }
+    #sec>a>h3{
+        font-size: 2vw;
+    }
 }
