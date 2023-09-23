@@ -127,6 +127,37 @@ nav{
         color: #fff;
         padding: 10px 0;
     }
+    @media (max-width: 768px) {
+        .name {
+            font-size: 60px;
+            padding-top: 20px;
+        }
+    
+        .elements ul {
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+    
+        .section {
+            padding: 30px;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .name {
+            font-size: 40px;
+        }
+    
+        .elements ul {
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+    
+        .section {
+            padding: 20px;
+        }
+    }
+
 
 
     
