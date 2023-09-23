@@ -1,15 +1,47 @@
-#depression{
+
+body{
+    background-image: url(background01.jpg);
+    min-height: 100%;
+    position: relative;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+
+h1{
+    margin-left: 270px;
+    margin-top: 100px;
+    font-size: 40px;
+    align-items: center;
+    
+    font-family: 'Roboto', sans-serif;;
+}
+
+ul{
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    
+    
+}
+ ul button{
+    padding: 30px;
+    margin: 100px;
+    border-width: 10px;
+    
+}
+a:link{
+    text-decoration: none;
+}
+
+button #depression{
     padding: 100px;
     background-color: rgb(99, 114, 194);
 }
 
+button:hover{
+    transition: 1s ease-in-out;
 
-h1{
-    padding: 10px;
-}
-
-button{
-    padding: 20px;
-    margin: 10px;
-    
 }
