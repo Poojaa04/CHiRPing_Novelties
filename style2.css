@@ -51,6 +51,24 @@ footer {
     padding: 10px 0;
 }
 
+@media (max-width: 768px) {
+    #digital-detox > h2 {
+        font-size: 4.5vw; 
+    }
+
+    #digital-detox > a {
+        font-size: 2.5vw; 
+        padding-left: 50%; 
+    }
+
+    #content > #b {
+        font-size: 2vw;
+        padding-top: 8vw; 
+        padding-left: 5vw; 
+        padding-right: 5vw; 
+    }
+}
+
 @media (max-width: 480px) {
     #digital-detox > h2 {
         font-size: 6vw; 
