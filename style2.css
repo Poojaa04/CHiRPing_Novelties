@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    font-family: Skranji;
+}
+#digital-detox{
+    width: 100vw;
+    text-align: center;
+    background-color: rgb(204, 244, 123);
+    position: fixed;
+}
+#digital-detox>h2{
+    margin: 1.5vw;
+    font-size: 3.5vw;
+}
+#digital-detox>a{
+    color: rgb(46, 162, 228);
+    font-size: 1.8vw;    
+    padding-left: 80%;
+}
+#digital-detox>a:hover{
+    font-size: 2vw;
+}
+#a{
+    padding-top: 8vw;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -1;
+    opacity: 0.5;
+}
+#content>#b{
+    font-size: 1.5vw;
+    padding-top: 10vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+h1{
+    text-align: center;
+}
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
