@@ -49,3 +49,27 @@ header{
     a:active {
     text-decoration: underline;
     }
+    section{
+
+        position:relative;
+    }
+    section>h1{
+      position: absolute;
+    }
+    #main{
+        padding-top: 320px;
+        font-size: 60px;
+        padding-left: 138px;
+    }
+    #hh{
+        font-size: 50px;
+        padding-top: 260px;
+        padding-left: 80px;
+
+    }
+    footer {
+        text-align: center;
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+    }
