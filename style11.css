@@ -1,43 +1,41 @@
-
- 
+*{
+    margin:0%;
+    padding:0%;
+} 
  
 #h1{
-    font-size: 48px;
-    color: aqua;
-    background-color: black;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    background-color:rgb(204, 244, 123);
     text-align: center;
+    padding: 0%;
 }     
 
 body{
-    background-color:aqua;
- background-image:url(support.jpg);
- min-height: 100%;
-    position: relative;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+    background-color:aliceblue;
     
 }
 .navigation{
         color:rgb(249, 252, 252);
-        background-color: rgb(255, 252, 252);
+        background-color:rgb(204, 244, 123);
         list-style-type: none;
-        padding: 5px;
         display: flex;
-        gap: 20px;
-        font-size:x-large;
+        gap: 100px;
+        font-size:xx-large;
         text-decoration: none;
+        padding-left:2vw;
 }
 header{
-    background-color: black;
+    background-color:rgb(204, 244, 123);
+
 }
 .navigation a:hover {
-    background-color:rgb(180, 255, 88);
+    background-color:lightblue;
     text-decoration: underline;
   }
   a:link {
     text-decoration: none;
+    color: aliceblue;
     }
     
     a:visited {
