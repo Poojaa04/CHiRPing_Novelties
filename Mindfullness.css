@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+}
+#mindfulness{
+    width: 100vw;
+    text-align: center;
+    background-color: rgb(204, 244, 123);
+    position: fixed;
+}
+#mindfulness>h2{
+    margin: 1.5vw;
+    font-size: 3.5vw;
+}
+#mindfulness>a{
+    color: rgb(46, 162, 228);
+    font-size: 1.8vw;    
+    padding-left: 80%;
+}
+#mindfulness>a:hover{
+    font-size: 2vw;
+}
+#a{
+    padding-top: 8vw;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -1;
+    opacity: 0.5;
+}
+a:link{
+    text-decoration: none;
+}
+#content>#b{
+    font-size: 1.5vw;
+    padding-top: 10vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+h2,h1{
+    text-align: center;
+}
+#tq{
+    text-align: center;
+    font-size: 5vw;
+}
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+    #mindfulness > h2 {
+        font-size: 4.5vw; 
+    }
+
+    #mindfulness > a {
+        font-size: 2.5vw; 
+        padding-left: 50%; 
+    }
+
+    #content > #b {
+        font-size: 2vw;
+        padding-top: 8vw; 
+        padding-left: 5vw; 
+        padding-right: 5vw; 
+    }
+}
+
+@media (max-width: 480px) {
+    #mindfulness > h2 {
+        font-size: 6vw; 
+    }
+
+    #mindfulness > a {
+        font-size: 3vw; 
+        padding-left: 40%;
+    }
+
+    #content > #b {
+        font-size: 2.5vw; 
+        padding-top: 6vw; 
+        padding-left: 3vw;
+        padding-right: 3vw; 
+    }
+}
