@@ -11,7 +11,12 @@
 body{
     background-color:aqua;
  background-image:url(support.jpg);
- background-repeat:no-repeat;
+ min-height: 100%;
+    position: relative;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     
 }
 .navigation{
